@@ -11,17 +11,17 @@ function deepSum(array) {
   return sum
 }
 
-function deepSumWithBuiltIn(array) {
-  let sum = 0
-  array.map(firstDimension =>
-    firstDimension.map(secondDimension =>
-      secondDimension.map(thirdDimension => {
-        sum += thirdDimension
-      })
-    )
-  )
-  return sum
-}
+// function deepSumWithBuiltIn(array) {
+//   let sum = 0
+//   array.map(firstDimension =>
+//     firstDimension.map(secondDimension =>
+//       secondDimension.map(thirdDimension => {
+//         sum += thirdDimension
+//       })
+//     )
+//   )
+//   return sum
+// }
 
 
 let array1 = [

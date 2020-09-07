@@ -1,5 +1,6 @@
 function changeVocal(string){
   let split = []
+  let result = ""
   // let split = string.split('')
   for (let a = 0; a < string.length; a++){
     split.push(string.charAt(a))
@@ -17,8 +18,10 @@ function changeVocal(string){
         step++
       }
     }
+    result += split[x]
   }
-  return split.join('')
+  // return split.join('')
+  return result
 }
 
 

@@ -35,3 +35,4 @@ console.log(naikAngkot([
   ['Dimitri', 'B', 'F'],
   ['Icha', 'A', 'B']
 ]))
+console.log(naikAngkot([]))
